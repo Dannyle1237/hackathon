@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(static/watertileverticalfast.gif);
+  background-repeat: repeat;
+  background-size: "cover";
+}
