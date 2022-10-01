@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollmenu p {
+  display: inline-block;
 }

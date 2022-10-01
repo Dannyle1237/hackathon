@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Button from './components/Button'
+import Section from './components/Section'
+import DropdownButton from './components/DropdownButton'
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Section headerText="Perils We Insure Against"></Section>
+      <Section headerText="Types of Boats Insured"></Section>
+      <Section headerText="We Also Insure"></Section>
+      <DropdownButton text="info"></DropdownButton>
     </div>
+
   );
 }
 
